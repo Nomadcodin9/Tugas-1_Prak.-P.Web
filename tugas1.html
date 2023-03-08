@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Survei Minat Karyawan</title>
+<style>
+    body{
+        background-image: url(pexels-tim-mossholder-2096622.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100%;
+    }
+    .title{
+        text-align: center;
+        font-size: 2.5em;
+        color: #000;
+    }    
+</style>
+</head>
+<body>
+
+<form action="http://google.co.in">
+
+<div align="center">
+ <!-- Jika menghapus ini, semuanya akan berpindah ke kiri halaman-->   
+
+<h1>Formulir Survei Minat Karyawan</h1>
+Masukkan Nama Anda :
+<input type="text" name="UserName" size=35 maxlength=35 value="">
+</br></br>
+Masukkan Departemen Anda:
+<input type="text" name="Deptt" size=35 maxlength=35 value="">
+ </br> </br>
+Ceritakan Sedikit Tentang Diri Anda:
+<textarea name="Comments" cols=30 rows=4></textarea> 
+</br> </br>
+Apakah Anda berolahraga di rumah?
+<input type="radio" name="exe" value=1>Ya
+<input type="radio" name="exe" value=2>Tidak
+</p>
+Bagaimana cara Anda suka membaca tentang topik favorit Anda?
+<p>
+<input type="checkbox" name="Books">Buku
+<input type="checkbox" name="Web">Sumber Daring
+<input type="checkbox" name="Phone">Aplikasi Telepon
+<input type="checkbox" name="Magazines">Majalah
+<!--Checkbox memungkinkan untuk memilih beberapa pilihan -->
+</p>
+Genre film apa yang Anda suka?
+<select name="movie"  ><option>
+<option value=1 selected = "true">Comedy
+<option value=2 >Romance
+<option value=3 >Thriller
+<option value=4 >Horror
+<option value=5 >Action
+</select>
+</br></br>
+<input type=submit value="Serahkan Formulir">
+<!--Mengirimkan informasi yang dimasukkan dalam formulir oleh pengguna -->
+</div>
+</form>
+</body>
+</html>
